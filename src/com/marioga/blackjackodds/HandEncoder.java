@@ -1,5 +1,15 @@
 package com.marioga.blackjackodds;
 
+/**
+ * This class encodes (and decodes) a player hand and a dealer card
+ * into a long integer. It consists of the matrix representation of
+ * a player hand viewed as a base 23 integer, which is then multiplied
+ * by 10 and added the dealer card. Such repr. is unique.
+ * 
+ * @author marioga
+ *
+ */
+
 public class HandEncoder {
     private static final int SIZE = 10;
     
