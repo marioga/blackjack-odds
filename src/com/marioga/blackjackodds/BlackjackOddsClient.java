@@ -2,6 +2,7 @@ package com.marioga.blackjackodds;
 
 /**
  * 
+ * Test client that computes expected returns of a Blackjack hand 
  * @author marioga
  */
 public class BlackjackOddsClient {
